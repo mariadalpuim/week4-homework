@@ -45,9 +45,18 @@ if (yourAge <= 17) {
     console.log(`WELCOME TO THE PARTY! ENJOY.`);
 }
 
-// task 4 - -
+// task 4 - for loop (used another array because I didn't use numbers before, so I can't find odd numbers - just odd brothers lol)
 
-// const itArr = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+const itArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 
-// console.log(itArr);
+console.log(itArr);
 
+// for (let i = 0; i < 20; i += 2) {
+//     itArr.push(i)
+// }
+
+console.log(itArr);
+
+for (itArr; itArr.lenght % 2 != 0; itArr += 1) {
+    console.log("Found and odd number");
+}
