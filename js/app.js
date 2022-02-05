@@ -4,7 +4,7 @@ let myVar = 2
 
 console.log(myVar);
 
-// task 1 - buld an array, call items, add one, update one
+// // task 1 - buld an array, call items, add one, update one
 
 const myBrothers = ["Sebastiao", "Joe", "Joao", "Goncalo"]
 
@@ -18,7 +18,7 @@ myBrothers[1] = "Jorge"
 
 console.log(myBrothers);
 
-// task 2 - multiply numbers, prompt and alert
+// // task 2 - multiply numbers, prompt and alert
 
 let myMultiplication = 10 * 5
 
@@ -32,7 +32,7 @@ buyingApples = prompt("How many apples did you buy today?") * prompt("How much e
 
 alert("you spent " + buyingApples + "£ in apples today.");
 
-// task 3 - Boolean and comparisons
+// // task 3 - Boolean and comparisons
 
 let yourAge = prompt("How old are you?")
 
@@ -45,9 +45,9 @@ if (yourAge <= 17) {
     console.log(`WELCOME TO THE PARTY! ENJOY.`);
 }
 
-// task 4 - display array content in a table
+// task 4 - -
 
-const itArr = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+// const itArr = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
-console.log(itArr);
+// console.log(itArr);
 
